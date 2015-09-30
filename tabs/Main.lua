@@ -1,7 +1,7 @@
 -- Lesson3
 
 -- Created by: Mr Coxall
--- Created on: Nov 2013
+-- Created on: Nov 2015
 -- Created for: ICS2O
 -- This program displays an image and moves it around the screen
 
