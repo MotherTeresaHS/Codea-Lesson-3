@@ -23,15 +23,11 @@ end
 
 -- This function gets called once every frame
 function draw()
-    
     -- local varaibles
  
+    -- this gets the "x" input from the iPad acceleromitor
     manPosition.x = manPosition.x + (Gravity.x * 10)
-    -- This sets a dark background color 
-    background(0, 0, 0, 255)
     
     sprite("SpaceCute:Background", 512, 384, 1024, 768)
     sprite("SpaceCute:Beetle Ship", manPosition.x, manPosition.y)
 end
-
-
