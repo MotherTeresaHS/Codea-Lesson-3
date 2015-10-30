@@ -18,6 +18,8 @@ function setup()
     noStroke()
     pushStyle()
     
+    -- get the width and height of the device you are on
+    -- then divide in 1/2 to get device center position
     manPosition = vec2(WIDTH/2, HEIGHT/2)
 end
 
@@ -25,7 +27,7 @@ end
 function draw()
     -- local varaibles
  
-    -- this gets the "x" input from the iPad acceleromitor
+    -- this gets the "x" input from the iPad accelerometer
     manPosition.x = manPosition.x + (Gravity.x * 10)
     
     sprite("SpaceCute:Background", 512, 384, 1024, 768)
